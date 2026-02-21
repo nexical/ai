@@ -1,7 +1,7 @@
 {
     "name": "@nexical/ai",
     "version": "0.1.0",
-    "description": "General purpose AI Client interfaces and providers for the Nexus Ecosystem",
+    "description": "General purpose AI Client interfaces and providers for the Nexical applications",
     "type": "module",
     "main": "dist/index.js",
     "scripts": {
