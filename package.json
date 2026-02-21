@@ -1,42 +1,42 @@
 {
-    "name": "@nexical/ai",
-    "version": "0.1.0",
-    "description": "General purpose AI Client interfaces and providers for the Nexical applications",
-    "type": "module",
-    "main": "dist/index.js",
-    "scripts": {
-        "build": "tsc -p tsconfig.build.json",
-        "format": "prettier --write .",
-        "lint": "eslint .",
-        "lint:fix": "eslint . --fix",
-        "prepare": "husky",
-        "prepublishOnly": "npm run build",
-        "test": "vitest run --passWithNoTests",
-        "test:unit": "vitest run --passWithNoTests"
-    },
-    "lint-staged": {
-        "**/*": [
-            "prettier --write --ignore-unknown"
-        ],
-        "**/*.{js,jsx,ts,tsx,astro}": [
-            "eslint --fix"
-        ]
-    },
-    "dependencies": {
-        "chalk": "^5.3.0"
-    },
-    "devDependencies": {
-        "@eslint/js": "^9.39.2",
-        "@types/node": "^22.0.0",
-        "eslint": "^9.39.2",
-        "eslint-config-prettier": "^10.0.1",
-        "globals": "^15.9.0",
-        "husky": "^9.1.5",
-        "lint-staged": "^15.2.10",
-        "prettier": "^3.3.3",
-        "typescript": "^5.5.4",
-        "typescript-eslint": "^8.3.0",
-        "vitest": "^2.1.0"
-    },
-    "types": "dist/index.d.ts"
+  "name": "@nexical/ai",
+  "version": "0.1.1",
+  "description": "General purpose AI Client interfaces and providers for the Nexical applications",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky",
+    "prepublishOnly": "npm run build",
+    "test": "vitest run --passWithNoTests",
+    "test:unit": "vitest run --passWithNoTests"
+  },
+  "lint-staged": {
+    "**/*": [
+      "prettier --write --ignore-unknown"
+    ],
+    "**/*.{js,jsx,ts,tsx,astro}": [
+      "eslint --fix"
+    ]
+  },
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@types/node": "^22.0.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.0.1",
+    "globals": "^15.9.0",
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.3.0",
+    "vitest": "^2.1.0"
+  },
+  "types": "dist/index.d.ts"
 }
