@@ -1,0 +1,10 @@
+# Typescript package files
+node_modules
+dist
+
+# Build files
+*.tsbuildinfo
+
+# Test files
+coverage
+.test-tmp
