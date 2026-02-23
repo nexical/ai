@@ -12,7 +12,7 @@
     "lint:fix": "eslint . --fix",
     "prepare": "husky",
     "prepublishOnly": "npm run build",
-    "test": "vitest run --passWithNoTests",
+    "test": "npm run test:unit",
     "test:unit": "vitest run -c vitest.unit.config.ts"
   },
   "lint-staged": {
